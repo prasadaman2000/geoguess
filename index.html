@@ -8,10 +8,19 @@
 </head>
 
 <body>
+  <h1>
+    Juanoguessr
+  </h1>
+
   <img src="https://m.media-amazon.com/images/I/81CEWOv1woL._AC_UF894,1000_QL80_.jpg" id="thePicture" />
 
-  <button onclick="start()" id="startButton">Hello World</button>
-
+  <button onclick="start()" id="startButton">Play</button>
+  <div id="resultDiv" hidden="true">
+    <h2>
+      Result:
+    </h2>
+    <p id="offBy"></p>
+  </div>
   <div id="map" hidden="true"></div>
 
   <input type="date" id="dateOfImage" value="2025-07-22" />
@@ -21,4 +30,6 @@
 <head>
   <script src="main.js"></script>
   <link href="style.css" rel="stylesheet" />
+  <link href="https://jsdelivr.net" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>

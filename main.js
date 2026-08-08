@@ -248,6 +248,7 @@ function start() {
   currImage = images[idx];
   document.getElementById("thePicture").setAttribute("src", currImage["path"]);
   document.getElementById("startButton").setAttribute("hidden", "true");
+  document.getElementById("resultDiv").setAttribute("hidden", "true");
   document.getElementById("map").removeAttribute("hidden");
   document.getElementById("submitButton").removeAttribute("hidden");
 
@@ -301,5 +302,6 @@ function submit() {
   alert("you were off by " + differenceInDays + " days and " + differenceMiles + " miles.");
   document.getElementById("submitButton").setAttribute("hidden", "true");
   document.getElementById("startButton").removeAttribute("hidden");
-  document.getElementById("map").setAttribute("hidden", "true");
+  document.getElementById("resultDiv").removeAttribute("hidden");
+  document.getElementById("offBy").innerText = "You were off by " + differenceInDays + " days and " + differenceMiles + " miles.";
 }
