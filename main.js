@@ -251,7 +251,7 @@ function start() {
   document.getElementById("resultDiv").setAttribute("hidden", "true");
   document.getElementById("map").removeAttribute("hidden");
   document.getElementById("submitButton").removeAttribute("hidden");
-
+  map.invalidateSize();
 }
 
 function dayDiff() {
