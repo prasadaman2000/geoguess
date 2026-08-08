@@ -191,7 +191,6 @@ var images = [
       "long": -122.43732350601186
     }
   },
-
   {
     "path": "https://lh3.googleusercontent.com/pw/AP1GczMo0g8FWQkmutTSP2m3OkBb6cBY99jJFBML-6SF8WIE6GcqL35SxBJRREkPzm8X7co-wsPQk4fEZQGYEqwUYJtWKwPsOkZN3gKx5C9Nr_JGmRoSKxKdkoJMQS2ieigHwmEPtwQjTkchg251bGeKNJ42vQ=w1746-h2328-s-no-gm?authuser=0",
     "date": new Date("2025-10-11"),
@@ -215,9 +214,208 @@ var images = [
       "lat": 36.371446951213265,
       "long": -121.9016913075358
     }
-  }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczPvrYwEGjm3PuL5dks-FkG1c8zRxl1F-HAxkH6szsoNQCueMFX6OL3b536zLA2TcQr99HLNvBNX4E2KV0TszvMCiTorM8Zkc-SewmvDTEMLX2CimeR0ZN_XtNBvGPD0aZd2DyeXOPsFO6MVB6wuofOLuQ=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-06-21"),
+    "location": {
+      "lat": 37.3173917,
+      "long": -122.14785
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczOwB898N2PycNabjOJcR2CYx2106S25uu-gY1Lx_ElaIQTzvi6BN__N6-o-YqysI1WEi8SFJLG8M3HsKk06yodhuFIc3gTyww5K6FRv8U0XkT-ORCLHrYfrTkUTdTttkf9RB2-w0ad9yhSQTdP9TpAS3g=w2100-h1400-s-no-gm?authuser=0",
+    "date": new Date("2025-07-19"),
+    "location": {
+      "lat": 37.44306631020235,
+      "long": -122.1718609326846
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNd6WqrGWREOMMPYdJZQ_EqjQBAtf4gkQui8xGWhW_B-EUrxIyM7BU_clPqwbTFAE0yVXCI2OB-Rf5sgMqE4AvUlccAfVB3GeVO4tL1R_BtGVsLOWslm8PHC5BFoZOeNPqI2LTWsT5SESsznVuhGkOOyA=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-07-27"),
+    "location": {
+      "lat": 36.4742972,
+      "long": -121.1864389
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNlkJbItXkx9qF3t6G54KkE5aiEWlj-EWblKl2JQsk1dwqldmznO1FQIdBibylx7b592aHJX1jtgJTGy3EPBY8jw_CwBsUVhCBYhkT5USgL56UrLz7iDH230AZy3OTn3HlY62pJ5bHv_lG0uux-SU1MWw=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-07-27"),
+    "location": {
+      "lat": 36.7875972,
+      "long": -121.3167278
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNTlWslNX-BSvYKqaPugajong7mox7K3F1sEQqV_LEAMAexhhWNZ8Fv0qT7vVFM6s6-jNG2W9Jd2d0Zn210LcvENdd1OdTdm1GDyuAz2d1oJjytAtoMhFTj177LKPr6V4Vhq6ieA1c0ixz9HuQ7aQan5w=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-08-10"),
+    "location": {
+      "lat": 37.9170806,
+      "long": -122.5934833
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczPBj_mHDmiH_8uK7lRyE9XUREcyNliYSOlaEfkT6_4K6_-YULmake2RmGFcqpL5edJS0wWe4LnaGrK2rRwJpVt-VN9AHk_nj6YnzDzfam2wDI8_-6YDPGCADypRU7p_Xlb6_alOVpybDoDDuCzrnppa-w=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-10-18"),
+    "location": {
+      "lat": 37.4466139,
+      "long": -122.1558
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNTjtVcJ6bvd2_kAhKnmpERwOh3Uiw7kTHHgFOLVOddk94RzAr5OwbfQ1fyQZOve8n65galyPKr4KZfLy-GoA3L_8kcgbIi8l2_aYxDHw4fWnWo0A8CyLDfcOwP5QkzH54Yljl5c6OwjxGmr28OxyyH=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-11-22"),
+    "location": {
+      "lat": 37.40425647084041,
+      "long": -122.11126360569989
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczMUqpG2egKlzM_G2G-RIi5wyCcxw6RvJIJXeJ1tWpCF4tJFT_2rXQOKi2RPAHDeLkdeJueKo1OiSAXNwfeQmCMcwZ-u7bx5P4myTZW_Ws3qL8pYuSZPvuQDXwAY2_599gH03bZOLc7fru2M7ixP_t5N=w1986-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-01-31"),
+    "location": {
+      "lat": 37.76910685395923,
+      "long": -122.48294481732762
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczMwDYpDxxvr8kwbVJDlp1786vjMoPil5Sdbjy2d3iK7TRm1o8PiH8hEVU9HyjGnWoWqwjPiNZGqCUv9Fv6EqSLMZHhRdsj9aZPXCXSN4go-4Pu8avKyjNtuHuDNkoL5Z99X43taBWdkRIwioJgA6XVz=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-02-13"),
+    "location": {
+      "lat": 37.41292038407295,
+      "long": -121.98634806152164
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNGjHbfEf5hVJBWobB5mgF0kelk2eJjJ0JNQzbw0s72PgkmfV7y4ZzJv8iz5ojCMbXd09_IA_pbyk0I5Y1iX8ZH6aNeKlsBXCdpCgnOn9mbFT32sVrSWHjNy0CbVfhdFiTUjWsx_w7MsCRZKK_8pWYqfg=w1978-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-02-16"),
+    "location": {
+      "lat": 37.40119156219848,
+      "long": -122.07790111919338
+    }
+  },
+  {
+    "path": "https://photos.google.com/share/AF1QipN9Dd4zzsfG1l7kcnYHql8h3KA86ELRaRf5UbiHkpKUcjXN6Zw3cZKLF-E17EPEiA/photo/AF1QipOVM6BarHsla4QTdBJe1PxVZi8buPvTGN_Zg_-D?key=TExmWXRDYUdpcFJqWEFQQUtDREZhZ01vQ1lJZnF3",
+    "date": new Date("2026-03-07"),
+    "location": {
+      "lat": 37.586794111189825,
+      "long": -122.506153875007
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNNsIzLkupkRHDb2I8ODYmFXJ20ZvEw4o3ihArfT55A-jyxSuROApziy9EqVmHu_pdDRFAe4i5Nptmzp6TLdm8J_zuJnsg-NqwEs_Jb2Ozjl8klavXaJE9PX2CopL2OHNlCrsz_mwd-kesgVnS_pFrV=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-03-07"),
+    "location": {
+      "lat": 37.4041882895299,
+      "long": -122.11125287686428
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczP-AkjZZPi659bol3fe2K800JhBX37w-8iMkifAYi-CoEqeHoxGtdMruCZMsxfP3IR8iKcKJgrSgiHhspXE0UF11Z4PM2ov7qmPhBWV4LrGD4dC2DZ0xEVL5aeCxqXFOcYzmU4mOvBybGd4M_rx3663=w1986-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-04-04"),
+    "location": {
+      "lat": 37.230019948484916,
+      "long": -122.12522823269414
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczP98go3ccCqCAo-BPCL55ZWJojN25CiTtkUAdPvRT64k7ExMEs_o0ZZn13VTpUYuXFLWd17ClVAlC4-HzPDUfA1rCBaIqK9hUX4D-QtP9bvN0HdhL34wGbeo51k3sNJuiWLG0W0kJCVT_E-y4DSobza=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-06-08"),
+    "location": {
+      "lat": 40.75724367006625,
+      "long": -73.96684321903712
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczM_DISyToXUW-M1ByQ7CdtO-zxRMcGgmfthqe4FeFL6dfLNghCiv0aHgsS2ld4B3HZbnfSeY2Iisv5dUD-S455kOl5qW7NyETyM1zHByK_PNxntszs4KC5EG7nV2ySCMExVQjzdx2VRl5WHw0WVobhI=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-06-10"),
+    "location": {
+      "lat": 40.74216494655291,
+      "long": -74.01035264787348
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczM_DISyToXUW-M1ByQ7CdtO-zxRMcGgmfthqe4FeFL6dfLNghCiv0aHgsS2ld4B3HZbnfSeY2Iisv5dUD-S455kOl5qW7NyETyM1zHByK_PNxntszs4KC5EG7nV2ySCMExVQjzdx2VRl5WHw0WVobhI=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-06-10"),
+    "location": {
+      "lat": 40.74216494655291,
+      "long": -74.01035264787348
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNQjo6sOsGq_9lxWESiJa6lxHMbO9rnr-QbRv0P9ZOC5b27ayhIlGdAAqNkMVZyn8-QPbiplQ8MNy3wELWrzXOiJxaPHyMCMxqU9oiplowJLfieF-qOvPACJ42s0AnFIucF8jPRieW6_UAqSxLzX2O_nA=w1986-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-05-09"),
+    "location": {
+      "lat": 37.897104534876284,
+      "long": -122.58106405965066
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczNQjo6sOsGq_9lxWESiJa6lxHMbO9rnr-QbRv0P9ZOC5b27ayhIlGdAAqNkMVZyn8-QPbiplQ8MNy3wELWrzXOiJxaPHyMCMxqU9oiplowJLfieF-qOvPACJ42s0AnFIucF8jPRieW6_UAqSxLzX2O_nA=w1986-h1490-s-no-gm?authuser=0",
+    "date": new Date("2026-05-09"),
+    "location": {
+      "lat": 37.897104534876284,
+      "long": -122.58106405965066
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczOnPMNrH5qmKeenWniZZW7rKMkyE5-Zu_wMw6MnvwGS7bAMVMCukS8k9rOYtAgYnpkUXlRiwjcDUHO0QDervUSu-tF-uLrfeK3Id4-MS-0qzbvs9TvBu7dOH8u7kY6XCSEY9uLOxl57MUUvfYIEEBo4lw=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-10-11"),
+    "location": {
+      "lat": 37.32278157037724,
+      "long": -122.03482716152564
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczMx1ld-v6Mu2v68O6bLzsU4j4DKu79rtSWSgGvyKI_bvVBrS4StTfA-ISTOTxri3Y3xn7kf_K_zWFt78f9U4yz2BNaTSJYBsGzc8CuQgz-ItK8h4hyDzXTWBLFwaIUPWCMT4wq3YP-7KN6XrsgkCmsiXw=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-04-12"),
+    "location": {
+      "lat": 37.804725,
+      "long": -122.4604722
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczPCU1wUDKHEmYdy7aDBoYk4puM2-4L6S5y5kD9DDQJbNG0DYEe72bTlnSPbIN1waIABgqEEN9lCnJ-HNK0F4GYOYPDtzTsaXDnjj85FBF3loS-fymEdFor__MqTdaPXZxstUkkPODjyMKOZdhrd4NlTUA=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-04-11"),
+    "location": {
+      "lat": 37.5958278,
+      "long": -122.5132611
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczPFv-ddvRRzQavzoW8Fwqu2HAVP66VNFUoEBKfOLxAx80l6UyfjSJ276Cfc3YlDYKywaRHyG161gt9gGgEWWS-onZwxlg0vu8-gKNS-0KhoB05rNKP4pngwFsQGqUIqglOk4a-ovnX5Cst2mbt6GWDNZA=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-04-06"),
+    "location": {
+      "lat": 37.55282351101483,
+      "long": -122.27010354591262
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczOqc9bXnNzyZt4HheKuFc_0fM1KAIHcqaCxZCk-4gqSHIs7PXieuuSPm5RMXbOOAE5ekxBaO6wuNMeX3KhEl42aZ-1xZCjVGXEzrF8cY59RnloPn0R8XNwo7EkpXhy4Q2qUG3O3uBa_H5XorPn9wzX92A=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-02-23"),
+    "location": {
+      "lat": 37.3701583,
+      "long": -122.0449917
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczMVCwXRlHNd005ob6r1hNUlKUDrfUdNPQh8XIDstZFJwznWLEUMST_8dm7F7pmQ7rMxS2go0duJ7I3go6NiccNWdEOBM7pfhKt6BzedYSxGjiLaDW_U9bh5X7a2EYi88_AUYhmGsBS1a0xrJ-HU7LlNgg=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2025-01-18"),
+    "location": {
+      "lat": 37.8012167,
+      "long": -122.3981861
+    }
+  },
+  {
+    "path": "https://lh3.googleusercontent.com/pw/AP1GczOcvWd57rwiOe7RWdhvbx8SmDaBC42E6AXkf1_5VRJ4IelOWyILuqhZUwGHxd_ugs-L9qqAL9by-t8IBsy8jwLIBHxJy4IY9R33IWdC5JW2npHD5LLYUFKRNEThToBcUpZxx9hFEX5lTiA7yNFpN5emug=w1118-h1490-s-no-gm?authuser=0",
+    "date": new Date("2024-08-25"),
+    "location": {
+      "lat": 37.5863722,
+      "long": -121.7045361
+    }
+  },
 ]
-
 
 var kEarthRadius = 3959
 
