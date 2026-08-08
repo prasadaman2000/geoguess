@@ -221,6 +221,24 @@ var images = [
 
 var kEarthRadius = 3959
 
+var kGreenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+var kRedIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
 var currImage = {}
 var map = L.map('map').setView([37.423458148808685, -122.06666867333563], 10);
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -233,25 +251,57 @@ var lastClick = {
   "long": 0,
 };
 var marker = "";
+var actualMarker = "";
+var gameInProgress = false;
 function onMapClick(e) {
   lastClick["lat"] = e.latlng["lat"];
   lastClick["long"] = e.latlng["lng"];
-  if (marker != "") {
-    marker.remove();
+  if (gameInProgress) {
+    if (marker != "") {
+      marker.remove();
+    }
+    marker = L.marker([lastClick["lat"], lastClick["long"]], { icon: kRedIcon }).addTo(map);
   }
-  marker = L.marker([lastClick["lat"], lastClick["long"]]).addTo(map);
 }
 map.on('click', onMapClick);
 
+function showLast() {
+  if (actualMarker != "") {
+    actualMarker.remove();
+  }
+  actualMarker = L.marker([currImage["location"]["lat"], currImage["location"]["long"]], { icon: kGreenIcon }).addTo(map);
+  map.setView([currImage["location"]["lat"], currImage["location"]["long"]], 10);
+}
+
+
+var seenIdxs = new Set();
 function start() {
+  if (seenIdxs.size == images.length) {
+    alert("No more images! Refresh the page to start over.");
+    return;
+  }
+
   var idx = Math.trunc(Math.random() * images.length);
+  while (seenIdxs.has(idx)) {
+    idx = Math.trunc(Math.random() * images.length);
+  }
+  seenIdxs.add(idx);
   currImage = images[idx];
   document.getElementById("thePicture").setAttribute("src", currImage["path"]);
   document.getElementById("startButton").setAttribute("hidden", "true");
   document.getElementById("resultDiv").setAttribute("hidden", "true");
+  document.getElementById("showLast").setAttribute("hidden", "true");
   document.getElementById("map").removeAttribute("hidden");
   document.getElementById("submitButton").removeAttribute("hidden");
   map.invalidateSize();
+  map.setView([37.423458148808685, -122.06666867333563], 10)
+  if (marker != "") {
+    marker.remove();
+  }
+  if (actualMarker != "") {
+    actualMarker.remove();
+  }
+  gameInProgress = true;
 }
 
 function dayDiff() {
@@ -302,5 +352,9 @@ function submit() {
   document.getElementById("submitButton").setAttribute("hidden", "true");
   document.getElementById("startButton").removeAttribute("hidden");
   document.getElementById("resultDiv").removeAttribute("hidden");
-  document.getElementById("offBy").innerText = "You were off by " + differenceInDays + " days and " + differenceMiles + " miles.";
+  document.getElementById("showLast").removeAttribute("hidden");
+  document.getElementById("offBy").innerHTML =
+    "<p>You were off by " + differenceInDays + " days. The real date was " + currImage["date"].toISOString().split('T')[0] + ".</p>";
+  document.getElementById("offBy").innerHTML += "<p> You were off by " + differenceMiles + " miles given the Earth is flat.</p>";
+  gameInProgress = false;
 }
