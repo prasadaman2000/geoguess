@@ -1,3 +1,7 @@
-button {
-  size: "10%";
+#thePicture {
+  width: 20%;
+}
+
+#map {
+  height: 500px;
 }

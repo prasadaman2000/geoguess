@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 
 <head>
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 
 <body>
-  <img
-    src="https://lh3.googleusercontent.com/pw/AP1GczPq7M7HaPgue9byqPvZ2EArqMD60KiqtUSFh7UTArvfH04baQzvcm0IS617I45PO4Ro7qWg8HeT93nXejqKgDZnjtxYdP6g_Ihmrq9SpWqh1cawQFE27izh0Y1gZG1poaXdp1Ztay3MDX6Zfh-34JRHhg=w665-h887-s-no-gm?authuser=0" />
-  <button onclick="hello()">Hello World</button>
+  <img src="https://m.media-amazon.com/images/I/81CEWOv1woL._AC_UF894,1000_QL80_.jpg" id="thePicture" />
+
+  <button onclick="start()" id="startButton">Hello World</button>
+
+  <div id="map" hidden="true"></div>
+
+  <input type="date" id="dateOfImage" value="2025-07-22" />
+  <button onclick="submit()" hidden="true" id="submitButton">Submit</button>
 </body>
 
 <head>
+  <script src="main.js"></script>
   <link href="style.css" rel="stylesheet" />
 </head>
