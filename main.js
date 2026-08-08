@@ -19,7 +19,7 @@ var images = [
     "path": "https://lh3.googleusercontent.com/pw/AP1GczOIrPGqkETE2wekG6j8GYKPPmF54T_A1HCQSn7i8Q35scLmXSJTvYRZBG4EAQ37VXQ1HO1z1SX5VX4_UQKCFeXGRdlMqPnlIg0-SKcnMNYOc-F_o3pSy4Mr7fJOPvSrHGVbq9PS3w9p9zhfDjJ6uAQbBg=w1118-h1490-s-no-gm?authuser=0",
     "date": new Date("2024-03-09"),
     "location": {
-      "lat": -37.331614682132155,
+      "lat": 37.331614682132155,
       "long": -121.90533721636733
     }
   },
@@ -299,7 +299,6 @@ function distDiff() {
 function submit() {
   var differenceInDays = dayDiff();
   var differenceMiles = distDiff();
-  alert("you were off by " + differenceInDays + " days and " + differenceMiles + " miles.");
   document.getElementById("submitButton").setAttribute("hidden", "true");
   document.getElementById("startButton").removeAttribute("hidden");
   document.getElementById("resultDiv").removeAttribute("hidden");
